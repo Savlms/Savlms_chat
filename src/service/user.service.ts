@@ -29,7 +29,7 @@ export default class UserService {
     }
 
     //delete a user
-    async delete (id: string) {
+    async erase (id: string) {
         return await userModel.findByIdAndDelete(id)
     }
 }
