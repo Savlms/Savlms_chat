@@ -1,7 +1,8 @@
 import { Request, Response } from 'express'
-import UserService from '../service/user.service';
+import UserService from '../service/user.service'
 import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
+const SECRET = process.env.SECRET
 const {
     create,
     update,
