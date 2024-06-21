@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(cookie())
 app.use(userRouter)
 app.get('/', (req, res) => {
-    res.send('Yooo, Whadup, Welome to Savlms chatroom')
+    res.send('Yooo, Wadup, Welome to Savlms chatroom')
 })
 
 app.listen(port, () => {

@@ -8,6 +8,8 @@ export default function database() {
         })
         .catch((err) =>  {
             console.log (
-                "There was an error connecting to the database");
+                "There was an error connecting to the database", err);
         });
 }
+
+

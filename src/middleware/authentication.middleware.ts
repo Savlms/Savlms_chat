@@ -26,7 +26,7 @@ async function authenticate (req: Request, res: Response, next: NextFunction) {
                 success: false
             })
         }
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
         (req as Auth).user = user
         next()
 }
