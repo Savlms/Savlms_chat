@@ -19,7 +19,7 @@ export default class UserController {
             //get user data from req.body
             const data = req.body
             //check to see if name has been used before
-            const existingUser = await findByUsername(data.Username)
+            const existingUser = await findByUsername(data.username)
             console.log(existingUser)
 
             //if user found, send an error that they exist already 

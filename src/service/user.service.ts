@@ -19,8 +19,8 @@ export default class UserService {
 
     
     //find a single user by Username
-    async findByUsername (Username: string) {
-        return await userModel.findOne({Username: Username})
+    async findByUsername (username: string) {
+        return await userModel.findOne({username: username})
     }
 
     //find all users
